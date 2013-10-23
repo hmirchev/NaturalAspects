@@ -1,0 +1,10 @@
+module names
+
+imports
+	
+	include/NaturalAspects
+	
+namespaces
+	
+rules
+

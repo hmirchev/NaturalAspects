@@ -1,0 +1,16 @@
+module NaturalAspects.main
+
+imports NaturalAspects-Builders NaturalAspects-Refactorings NaturalAspects-Colorer NaturalAspects-Completions NaturalAspects-Folding NaturalAspects-Outliner NaturalAspects-References NaturalAspects-Syntax
+
+language General properties
+                  
+  name          : NaturalAspects
+  id            : NaturalAspects
+  extends       : Root
+                  
+  description   : "Spoofax/IMP-generated editor for the NaturalAspects language"
+  url           : http://strategoxt.org
+                  
+  extensions    : nat
+  table         : include/NaturalAspects.tbl
+  start symbols : Start

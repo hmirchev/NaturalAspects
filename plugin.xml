@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?eclipse version="3.0"?>
+
+<plugin>
+       <extension point="org.eclipse.imp.runtime.languageDescription">
+          <language extensions="nat" description="NaturalAspects" language="NaturalAspects" derivedFrom="DynamicRoot" validator="NaturalAspects.NaturalAspectsValidator" validatorClass="NaturalAspects.NaturalAspectsValidator"></language>
+       </extension>
+       <extension id="NaturalAspects.parser" name="NaturalAspects Parser" point="org.eclipse.imp.runtime.parser">
+          <parser class="NaturalAspects.NaturalAspectsParseController" language="NaturalAspects">
+          </parser>
+       </extension>    
+    </plugin>
